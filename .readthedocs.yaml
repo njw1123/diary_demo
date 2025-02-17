@@ -16,15 +16,4 @@ sphinx:
 
 python:
   install:
-    - pip:
-        packages:
-          - sphinx-autobuild
-          - sphinx-rtd-theme
-          - recommonmark
-          - sphinx-markdown-tables
-
-# Optionally, declare the Python requirements needed to build your documentation
-# See https://docs.readthedocs.io/en/stable/guides/reproducible-builds.html
-# python:
-#    install:
-#    - requirements: docs/requirements.txt
+    - requirements: requirements.txt
