@@ -15,8 +15,8 @@ release = 'v1'
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 extensions = [
-    'recommonmark',
-    'sphinx_markdown_tables'
+    'myst_parser',  # Replacing recommonmark with myst_parser
+    'sphinx_markdown_tables',
 ]
 
 templates_path = ['_templates']
