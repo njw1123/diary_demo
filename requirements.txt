@@ -1,8 +1,4 @@
-python:
-  install:
-    - pip:
-        packages:
-          - sphinx-autobuild
-          - sphinx-rtd-theme
-          - recommonmark
-          - sphinx-markdown-tables
+sphinx-autobuild
+sphinx-rtd-theme
+recommonmark
+sphinx-markdown-tables
